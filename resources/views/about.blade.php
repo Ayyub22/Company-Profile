@@ -9,7 +9,7 @@
         <div class="relative group">
             <div class="absolute -inset-2 bg-[#F4C430] rounded-2xl opacity-20 blur-lg group-hover:opacity-30 transition duration-500"></div>
             
-            <img src="https://placehold.co/600x450/222/gold?text=MyPer+Premium" 
+            <img src="https://i.pinimg.com/736x/65/0b/9d/650b9daec58083b0ff6177425c36719a.jpg" 
                  alt="MyPer Bottle" 
                  class="relative w-full rounded-2xl shadow-2xl border border-white/20 object-cover h-[450px] transform transition duration-500 hover:scale-[1.01]">
         </div>

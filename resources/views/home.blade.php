@@ -26,7 +26,7 @@
 
         <div class="md:w-1/2 relative w-full">
             <div class="absolute inset-0 bg-[#F4C430] rounded-2xl rotate-3 opacity-20 transform translate-x-4 translate-y-4"></div>
-            <img src="https://placehold.co/600x400/222/gold?text=MyPer+Picture" alt="Elegant Perfume" class="relative rounded-2xl shadow-2xl w-full object-cover h-[400px] border-4 border-white/50">
+            <img src="https://i.pinimg.com/736x/84/2b/7c/842b7cf9e5f69c1b54aa6585780ee3ba.jpg" alt="Elegant Perfume" class="relative rounded-2xl shadow-2xl w-full object-cover h-[400px] border-4 border-white/50">
         </div>
     </div>
 </section>
@@ -67,13 +67,13 @@
 
 <section id="collection" class="bg-[#DCC8B3] py-24 scroll-mt-20">
     <div class="container mx-auto px-6">
+        
         <div class="text-center mb-16">
             <h2 class="text-4xl text-[#3E1A1A] font-bold mb-3 serif-font">Our Collection</h2>
             <p class="text-[#3E1A1A]/70">Discover our signature fragrances, each telling a unique story.</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-5 rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12"> <div class="bg-white p-5 rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
                 <div class="bg-[#2a2a2a] h-64 w-full flex items-center justify-center text-gray-400 text-sm mb-6 rounded-lg overflow-hidden relative group">
                     <span class="group-hover:opacity-0 transition">Image: Midnight Noir</span>
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
@@ -130,6 +130,14 @@
                 </button>
             </div>
         </div>
+
+        <div class="text-center">
+            <a href="{{ route('products') }}" class="group inline-flex items-center gap-2 border-2 border-[#3E1A1A] text-[#3E1A1A] px-10 py-3 rounded-full hover:bg-[#3E1A1A] hover:text-white transition-all duration-300 font-bold tracking-widest text-xs uppercase shadow-sm hover:shadow-lg">
+                View Full Collection
+                <span class="group-hover:translate-x-1 transition-transform duration-300">&rarr;</span>
+            </a>
+        </div>
+
     </div>
 </section>
 

@@ -15,7 +15,7 @@
             </div>
 
             <div class="md:w-1/2 w-full">
-                <img src="https://placehold.co/800x400/222/gold?text=Premium+Collection+Bottles" 
+                <img src="https://i.pinimg.com/1200x/dc/62/33/dc6233c55faee810cd2a4a83ca539400.jpg" 
                      alt="MyPer Collection" 
                      class="rounded-lg shadow-xl w-full object-cover h-[300px] border border-white/30">
             </div>

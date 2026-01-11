@@ -68,25 +68,31 @@
             </div>
 
             <div class="grid grid-cols-2 gap-4">
-                <div class="bg-gray-600 h-48 w-full rounded-lg flex items-center justify-center relative overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
-                    <span class="text-gray-300 text-xs font-medium tracking-wide">Rose Petals</span>
-                    <div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-all duration-500"></div>
+                
+                <div class="relative h-48 w-full rounded-lg overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
+                    <img src="{{ asset('https://i.pinimg.com/1200x/e1/3e/b7/e13eb74370a5be32385ad1d51db8ff1b.jpg') }}" alt="Rose Petals" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition duration-500"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold tracking-wide drop-shadow-md">Rose Petals</span>
                 </div>
 
-                <div class="bg-gray-600 h-48 w-full rounded-lg flex items-center justify-center relative overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
-                    <span class="text-gray-300 text-xs font-medium tracking-wide">Sandalwood</span>
-                     <div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-all duration-500"></div>
+                <div class="relative h-48 w-full rounded-lg overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
+                    <img src="{{ asset('https://i.pinimg.com/1200x/35/d1/25/35d125ed20ea811b1bfbf03d185e83fc.jpg') }}" alt="Sandalwood" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition duration-500"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold tracking-wide drop-shadow-md">Sandalwood</span>
                 </div>
 
-                <div class="bg-gray-600 h-48 w-full rounded-lg flex items-center justify-center relative overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
-                    <span class="text-gray-300 text-xs font-medium tracking-wide">Oud Wood</span>
-                     <div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-all duration-500"></div>
+                <div class="relative h-48 w-full rounded-lg overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
+                    <img src="{{ asset('https://i.pinimg.com/1200x/1b/2c/1d/1b2c1d3c03390a3966375c5c36b2774b.jpg') }}" alt="Oud Wood" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition duration-500"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold tracking-wide drop-shadow-md">Oud Wood</span>
                 </div>
 
-                <div class="bg-gray-600 h-48 w-full rounded-lg flex items-center justify-center relative overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
-                    <span class="text-gray-300 text-xs font-medium tracking-wide">Vanilla Beans</span>
-                     <div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-all duration-500"></div>
+                <div class="relative h-48 w-full rounded-lg overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300">
+                    <img src="{{ asset('https://i.pinimg.com/736x/c3/0d/ac/c30dac4b9f5c2474ce6a9a0ff9e3e7f8.jpg') }}" alt="Vanilla Beans" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition duration-500"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold tracking-wide drop-shadow-md">Vanilla Beans</span>
                 </div>
+
             </div>
 
         </div>
